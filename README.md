@@ -1,86 +1,114 @@
 # karenmchow.github.io
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Karen Chow</title>
-  <link rel="stylesheet" type="text/css" href="about.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans|PT+Sans|Raleway" rel="stylesheet">
-</head>
+* {
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
 
-<body>
-  <ul class="nav">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <div class="dropdown">
-      <li><button class="dropbtn"><a href="experience.html">EXPERIENCE</a></button>
-      <div class="dropdown-content">
-        <a href="science.html">SCIENCE</a>
-        <a href="photography.html">PHOTOGRAPHY</a>
-        <a href="marketing.html">MARKETING</a>
-        <a href="other.html">OTHER</a>
-      </div>
-    </div>
-    <li><a href="academia.html">ACADEMIA</a></li>
-    <li><a href="contact.html">CONTACT</a></li>
-  </ul>
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
 
-  <div class="Heading">
-    <h3>ABOUT</h3>
-  </div>
+h3 {
+  font-size: 45px;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
+  margin-left: 20px;
+}
 
-  <div class="description">
-    <p>Welcome! My name is Karen and I am a student at University of California, Berkeley, in my second year of studying Integrative Biology. I work in science, photography, and marketing.</p>
-  </div>
+p {
+  font-size: 21px;
+  margin: 25px;
+  padding: 10px;
+  padding-top: 0px;
+}
 
-<div class="skills">
-  <h4>SKILLS</h4>
-  <div id="science">
-  <h5><a href="science.html">SCIENCE</a></h5>
-  </div>
-  <div class="science">
-  <ul>
-    <li>DNA Extraction and Purification</li>
-    <li>Gel Electrophoresis</li>
-    <li>Polymerase Chain Reaction (PCR)</li>
-    <li>Researh Project Development</li>
-    <li>Statistical Analysis</li>
-  </ul>
-  </div>
-  <div class="photography">
-  <h5><a href="photography.html">PHOTOGRAPHY</a></h5>
-  <ul>
-    <li>Adobe Photoshop</li>
-    <li>Adobe Lightroom</li>
-    <li>Event</li>
-    <li>Portrait</li>
-    <li>Photojournalism</li>
-    <li>Sports</li>
-  </ul>
-  </div>
-  <div class="marketing">
-  <h5><a href="marketing.html">MARKETING</a></h5>
-  <ul>
-    <li>Adobe Illustrator</li>
-    <li>CSS</li>
-    <li>HTML</li>
-    <li>Social Media Production (Facebook, Instagram, Twitter)</li>
-    <li>WordPress</li>
-  </ul>
-  </div>
-  <div class="other">
-  <h5>OTHER</h5>
-  <ul>
-    <li>Customer Service</li>
-    <li>Data Entry</li>
-    <li>Geographic Information System (GIS)</li>
-    <li>Microsoft Suite</li>
-    <il>Proficient Cantonese and Elementary Mandarin</li>
-    <li>Teaching, Tutoring</li>
-  </ul>
-  </div>
-</div>
+h4 {
+  font-size: 34px;
+  font-weight: lighter;
+}
 
-</body>
+h5 {
+  font-size: 18px;
+  font-weight: lighter;
+}
 
-</html>
+h5 a:hover {
+  color:#c2dbf4;
+}
+
+#science {
+  border: 2px solid #a4cbf2;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+content-box {
+  max-width: 5px;
+  max-height: 5px;
+}
+
+.skills {
+
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  padding-top: 14px;
+  padding-left: 37px;
+  padding-bottom: 22px;
+  background-color: #a4cbf2;
+}
+.nav li {
+  display: inline;
+  padding: 20px;
+}
+.nav a {
+  display: inline-block;
+  padding: 16px;
+  color: white;
+}
+.nav li a:hover, .dropdown:hover {
+  background-color: #c2dbf4;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a4cbf2;
+  padding: 3px 5px;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  font-size: 15px;
+  margin-right: 30px;
+  margin-left: 0px;
+  padding-left: 37px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  text-align: left;
+  display: block;
+}
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 20px;
+}
