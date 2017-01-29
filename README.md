@@ -1,6 +1,5 @@
 # karenmchow.github.io
 
-Karen Chow 
 <!DOCTYPE html>
 <html>
 <head>
